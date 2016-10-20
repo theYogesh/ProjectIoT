@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Project IoT</title>
+		<link type="text/css" rel="stylesheet" href="styles/mailer.css" />
+	</head>
+	<body>
+		 <script type="text/javascript" src="lib/jquery.js"></script>
+		 <script type="text/javascript" src="js/mailer.js"></script>
+		<div class="mailSender">
+			<fieldset>
+				<legend>Mail Sender</legend>
+					<form method="post" action= "/mailSender">
+						<label>Email ID: <input type="email" name="targetMail" placeholder="someone@example.com"/></label><br><br>
+						<label>Header: <input type="text" name="subject" placeholder="Your Subject Here"/></label><br><br>
+						<label>Message: <textarea name="message" rows="4" cols="45" placeholder="Your Message Here..."></textarea></label><br><br>
+						<input type="submit"/>
+					</form>
+			</fieldset>
+		</div>
+	</body>
+</html>

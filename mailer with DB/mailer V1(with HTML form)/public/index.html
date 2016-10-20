@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Project IoT</title>
+		<link type="text/css" rel="stylesheet" href="styles/mailer.css" />
+	</head>
+	<body>
+		 <script type="text/javascript" src="lib/jquery.js"></script>
+		 <script type="text/javascript" src="js/mailer.js"></script>
+		<div class="mailSender">
+			<fieldset>
+				<legend>Mail Sender</legend>
+					<form method="post" action= "/mailSender">
+						<label>ChipCode: <input type="text" name="chipCode"/></label><br><br>
+						<label>Status: <input type="text" name="status"/></label><br><br>
+						<input type="submit"/>
+					</form>
+			</fieldset>
+		</div>
+	</body>
+</html>
